@@ -10,6 +10,7 @@ class Scraper:
         When we initialize a scraper object, we need to create our webdriver
         instance
         '''
+        # Please note that this is the directory of my webdriver instance
         self.browser = webdriver.Chrome('C:/Users/iamso/Desktop/chromedriver')
 
     def search(self):
